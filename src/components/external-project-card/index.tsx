@@ -1,7 +1,8 @@
-import { Fragment } from 'react';
+import { Fragment, useCallback, useState } from 'react';
 import LazyImage from '../lazy-image';
 import { ga, skeleton } from '../../utils';
 import { SanitizedExternalProject } from '../../interfaces/sanitized-config';
+import ImageViewer from 'react-simple-image-viewer';
 
 const ExternalProjectCard = ({
   externalProjects,
@@ -14,6 +15,21 @@ const ExternalProjectCard = ({
   loading: boolean;
   googleAnalyticId?: string;
 }) => {
+  const [currentImage, setCurrentImage] = useState(0);
+  const [isViewerOpen, setIsViewerOpen] = useState(false);
+  const [currentAlbum, setCurrentAlbum] = useState<string[]>([]);
+
+  const openImageViewer = useCallback((album: string[]) => {
+    setCurrentAlbum(album);
+    setCurrentImage(0);
+    setIsViewerOpen(true);
+  }, []);
+
+  const closeImageViewer = () => {
+    setCurrentImage(0);
+    setIsViewerOpen(false);
+  };
+
   const renderSkeleton = () => {
     const array = [];
     for (let index = 0; index < externalProjects.length; index++) {
@@ -68,24 +84,24 @@ const ExternalProjectCard = ({
 
   const renderExternalProjects = () => {
     return externalProjects.map((item, index) => (
-      <a
-        className="card shadow-lg compact bg-base-100 cursor-pointer"
+      <div
+        className="card shadow-lg compact bg-base-100 cursor-pointer relative"
         key={index}
-        href={item.link}
-        onClick={(e) => {
-          e.preventDefault();
-
-          try {
-            if (googleAnalyticId) {
-              ga.event('Click External Project', {
-                post: item.title,
-              });
+        onClick={() => {
+          if (item.album && item.album.length > 0) {
+            openImageViewer(item.album);
+          } else if (item.link) {
+            try {
+              if (googleAnalyticId) {
+                ga.event('Click External Project', {
+                  post: item.title,
+                });
+              }
+            } catch (error) {
+              console.error(error);
             }
-          } catch (error) {
-            console.error(error);
+            window?.open(item.link, '_blank');
           }
-
-          window?.open(item.link, '_blank');
         }}
       >
         <div className="p-8 h-full w-full">
@@ -119,7 +135,19 @@ const ExternalProjectCard = ({
             </div>
           </div>
         </div>
-      </a>
+        {item.tools && (
+          <div className="absolute bottom-2 right-2 flex flex-wrap justify-end gap-1">
+            {item.tools.map((tool, toolIndex) => (
+              <span
+                key={toolIndex}
+                className="px-2 py-1 text-xs font-semibold text-gray-700 bg-gray-200 rounded-full"
+              >
+                {tool}
+              </span>
+            ))}
+          </div>
+        )}
+      </div>
     ));
   };
 
@@ -151,6 +179,16 @@ const ExternalProjectCard = ({
           </div>
         </div>
       </div>
+
+      {isViewerOpen && (
+        <ImageViewer
+          src={currentAlbum}
+          currentIndex={currentImage}
+          disableScroll={false}
+          closeOnClickOutside={true}
+          onClose={closeImageViewer}
+        />
+      )}
     </Fragment>
   );
 };
