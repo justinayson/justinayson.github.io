@@ -36,14 +36,15 @@ const CONFIG = {
           title: 'RKCGPS',
           description:
             'RKCGPS is a GPS tracking service exclusively for Rael Kitz Corporation/s vehicle assets. We use Traccar for the backend service. The custom frontend is built with React. The app also includes our own SMS Gateway, built with NodeJS, which uses the RS232 protocol.',
-          album: [
-            'https://uc2b29fc00009aa81bd7a84ca15e.previews.dropboxusercontent.com/p/thumb/ACZD2kPrybCy_Yvv8m8f4ICL5bjNWzGxVUdctw861W_hxL9zdhwr5mdrLKbbYhn-HK0GH1vEcpEqIVwwvQ1QTsOp6p5fl1TtO9Oep-5rPQH3MQ4hQZPlWycbp7MkBlpZYa8B3EMuwQnXZl-prNlmaPO7qGJvcfNJTiy0FWZE3fOpuTuh7LsS5uXI-e-OFwlo1lIWqxC2-_uRuoB9WH-s37dbQSWU-AgS216psad44MA7SDf-Au_srqNiRfvBxMRoGX85aFfr4RexujPBmWgoP7ZM67SO8k3UhCZk1tNbAFBXNoCJR3KGBVhNYDVkbyfpm08XmIBlwG7FE7NRHYmM16zSGM_X63h-BqIOqbEJKubsow/p.png',
-            'https://uc681f92899e742cb133ebdc8e92.previews.dropboxusercontent.com/p/thumb/ACYN9GEcBITyhkszcWS0opSU4c-SG1MZVmTXeYzuQ9CZG6ILzCdT-JiUDZrTtpsRfOpHB2xzusY988MmXRM5xUt8RF9-YD5MqzO-L5ReoBW1lw06tiSx80MwZavQ59T6KhEw2Jr0GgraAMpYM6Jq-DmBISKVc37z_bGf2SW6juvdVOiFn2i4PveF6Mlj_KdwxmjZGBbJ_fh6zWcoGrC_snsP0DOeeyournd6h19IUm0WvHkACyjbZkLODGK0asAqwEIl0Pr0OLwX7lYkkDzDSbQeCK9-jsKByZ_SijapHu3L_XX92QZFa-KkadtWxsmP1CXpbyOgvtIO3KDeyTxfuQ2Dn-VuHNIuT8eydaKyzSYQQQ/p.png',
-            'https://uc729bf637d3f99792a4e966a6f4.previews.dropboxusercontent.com/p/thumb/ACaT3r3D5NGqedF6NdmSiYXoYvyd_WRi69wroMSnmydWlcee2AYMETQFXwxOWN5urkC-PwX3YvNBOz6uJU8UYFG5kF3LTXn9SZEBwSabfVJoPK1rLiBjtY_gTo8rLvaockSolH9V-ePMD52OfgUM136rcQQB0Wp9Es4IlRqmeo06Dtdd6znMTsSQL2oJnLpKQkMNNM8cSVm0ywO-yK3ds6PgqN1bt3Udo3qMoAgDB0JcOW77Qj7Pt5gr3WbU3Zg1TMNI921_o2LDU9bfoj_EDJXOipjzv14k4QWJSaN7PKFCLlAnzBnvmKTLVOxN6bgO5ARkk9xyet9M_O-Xqz1QZuQjaEryCNu0_rRIzpcrexfY-w/p.png',
-          ],
           imageUrl:
-            'https://uc2b29fc00009aa81bd7a84ca15e.previews.dropboxusercontent.com/p/thumb/ACZD2kPrybCy_Yvv8m8f4ICL5bjNWzGxVUdctw861W_hxL9zdhwr5mdrLKbbYhn-HK0GH1vEcpEqIVwwvQ1QTsOp6p5fl1TtO9Oep-5rPQH3MQ4hQZPlWycbp7MkBlpZYa8B3EMuwQnXZl-prNlmaPO7qGJvcfNJTiy0FWZE3fOpuTuh7LsS5uXI-e-OFwlo1lIWqxC2-_uRuoB9WH-s37dbQSWU-AgS216psad44MA7SDf-Au_srqNiRfvBxMRoGX85aFfr4RexujPBmWgoP7ZM67SO8k3UhCZk1tNbAFBXNoCJR3KGBVhNYDVkbyfpm08XmIBlwG7FE7NRHYmM16zSGM_X63h-BqIOqbEJKubsow/p.png',
-
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCGPS/7.png',
+          album: [
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCGPS/7.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCGPS/5.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCGPS/6.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCGPS/8.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCGPS/9.png',
+          ],
           link: '',
           tools: ['React', 'NodeJS', 'RS232 Protocol', 'Traccar'],
         },
@@ -51,13 +52,12 @@ const CONFIG = {
           title: 'ATGMS',
           description:
             'ATGMS is an app built for the Underground Tank Console device. The app can read real-time tank information, including white product levels, water, and temperature. It also includes a web app that allows users to view consolidated UGT data from all Centrum Fuel stations. The app uses the RS232 protocol and is built with C#.Net, while the web app is developed using HTML, Bootstrap 5, and PHP.',
-          album: [
-            'https://uca9eab9a85f11c8d27277d41915.previews.dropboxusercontent.com/p/thumb/ACZShPT8wer1cY1pbX3SJrmcjklkorouPBB04XwUw1Zer16C_YWv9BGlFUYBveB7fWyNqzCdLAtres-OTRuEyarWmKisgPL1vjBeOJlHOtQZ6dWjub-x7C6i8lwQCXb52izOIwGWGx1_qje8KfvdanBeC-uOi3kMIcvmxEpFncoAyz5hUkspiF2wYV5v-gusnvBD9AKh_R_aQ3ZjnADgaxsP1GRhxdSC_ljNn94xpYF3z-cxb30TQ_VflXIbTDtX14obC10zVqq6DrUcm3CmXnEQ6I-X2j-0Oqa3sKKrH1RIEqIXXwhX2zfZ_V9EsrB8yTvzN0qvke_ZCrCe4Pidd4omd8vJ_jICvoXh_EmA8HJAv8VOGtA8iin1L3C5e7bZ8Rrbu4IenAeOOKRHwWEuHn-d/p.png?is_prewarmed=true',
-            'https://uc682abe5db9189a2ba9326eafa8.previews.dropboxusercontent.com/p/thumb/ACZIIDAC_RKg0saLa0thWV8wJErQlKOLqMhtYjaUo4ZM1AtlJqgH8gLsuSujtczrHmmkcjb5qYuYjobXX0JRzHxnGbbBw_IGNgzIH70iOyp6iE6FdNl4HZA_LSAI0m2ap9ri9pToM-3o6jjCs3j6ohJYUuhiubu_aTHGOfgGj5kL2DGob9zkujAeNbrI5DAZXCSffYwgiyMIWqBml8TXER9fpMpKmoTrUWRNNq-EIfCTa9cdrVEmZf_Z_8K-zj66euUmCzjVcbSWd9G2x-GWuJrn4nobISXIF3yfXIglPWjc12eS6-n5wIfvA1Qbv5nEgU7BoOej0AaNYBPrVnR-46Zkg4J9YbqHjaVzYEaOis3y8HCAogDs9wMNdhA0UISimQqQjc0KqhVZJL2s3CXVRdr0/p.png?is_prewarmed=true',
-          ],
           imageUrl:
-            'https://uca9eab9a85f11c8d27277d41915.previews.dropboxusercontent.com/p/thumb/ACZShPT8wer1cY1pbX3SJrmcjklkorouPBB04XwUw1Zer16C_YWv9BGlFUYBveB7fWyNqzCdLAtres-OTRuEyarWmKisgPL1vjBeOJlHOtQZ6dWjub-x7C6i8lwQCXb52izOIwGWGx1_qje8KfvdanBeC-uOi3kMIcvmxEpFncoAyz5hUkspiF2wYV5v-gusnvBD9AKh_R_aQ3ZjnADgaxsP1GRhxdSC_ljNn94xpYF3z-cxb30TQ_VflXIbTDtX14obC10zVqq6DrUcm3CmXnEQ6I-X2j-0Oqa3sKKrH1RIEqIXXwhX2zfZ_V9EsrB8yTvzN0qvke_ZCrCe4Pidd4omd8vJ_jICvoXh_EmA8HJAv8VOGtA8iin1L3C5e7bZ8Rrbu4IenAeOOKRHwWEuHn-d/p.png?is_prewarmed=true',
-
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/ATGMS/14.png',
+          album: [
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/ATGMS/14.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/ATGMS/13.png',
+          ],
           link: '',
           tools: ['C#.Net', 'HTML', 'Bootstrap 5', 'PHP'],
         },
@@ -65,14 +65,14 @@ const CONFIG = {
           title: 'RKCWMS',
           description:
             'RKCWMS is a Warehouse Management System developed exclusively for Rael Kitz Corporation. The backend is built with Laravel, and the frontend is built with React.',
-          album: [
-            'https://ucc94246c7ad78e1558f1c7166a1.previews.dropboxusercontent.com/p/thumb/ACZ126BC-1Kor7wfXOXu1D98HX_mtjWL5xdrF4OmRebv2AZbRhgSBzHUR-_z5hqjPRnNlFLlf-rQCWBSUvthCoTIidxQYpF-QvvQC-C_tdXqQm3quOLU_faDUsAN18otDn6j7TPXW3ou-YzLqPqTN-Dduve2Q5t_7BhbEGeMbu0MHy27lIJKXSoPLJoueWE1KKh7a1uBC8T7WlJaKlfQG0xMHgPW1qu1ebvGG1fe6noFlIyv1j_JembbE4-q3LGjK1kErqwsB8I5Uh4MyG8w9a2gaMKQbux6HDqynKQHyGbsetBqVgX_gCGtyepPWgPMND3jfTnWSIih-PgjTo0LdYRc9XSIQUxcbcX33QH09NwqVg/p.png',
-            'https://uc5bb545d172d94dff1879774b3d.previews.dropboxusercontent.com/p/thumb/ACYAHx9NBrkVKBKi3_qEQxJR_bDBpuMHrXEN_winnvLrSOiD2QMcfQdQjhqQvtk50-Mow7iV0s7oKEI9y-cRp1gmXzOFQb1iQRqOUpjPDrAQHjnkJLE_50xu3JbH9i1pdXo-Mm7iUoCiy_ugVGXrnvmDeq0p2700GiQN-3udYrX5dsR5jneS95-JbslGQsJ9RPUXNnxczFPzOE7Vgj2XGVF98X2NFhRPnOxcelhm-wrp3HkuoryB3SMbuX3suPA6fPA-LMjDk58YO0wM4pDvoh6I3-4kU-__UVjxGoODa2JMRwg9jEyXAmL2KOki87RGXeuYm15jhArcBWxxG3_bHV7kWO57tG9ZpqPK9wuWU7wXQQ/p.png',
-            'https://uc6042dac89c65d217d52f7621e2.previews.dropboxusercontent.com/p/thumb/ACYXPrIeRSQJGHMUWPhoo53181pYq2IaTKfQX6cHd7WpUp4B_XM2zvmxVh30Z4Sitk0L2NIYrMQFfVqNw5qI1AAv1CWVrhPPGmDVQv4N5BFsB9KoWPYU7qDzKF4KXd30b75ibDALmN68_419gTaxwuarK9RBeI0B7ePLBoUoA29fd7pSOQhxH0ITCqLdALmGq0d73lLiuyfISendA5HG7wgegx-7GLxDryweEl1CbabHns_o474n2JioDhzFIKsOrZo5iTv8ppS9XTkWnOlYPpBDcYr0vj9fKDGG8mLzUfNwx2B6e7N5qOEoY8mwPblAS4COna2lKeLNfQEVYPPKe6ihOuGsYi5AwAGA_IN6NQStqg/p.png',
-          ],
           imageUrl:
-            'https://ucc94246c7ad78e1558f1c7166a1.previews.dropboxusercontent.com/p/thumb/ACZ126BC-1Kor7wfXOXu1D98HX_mtjWL5xdrF4OmRebv2AZbRhgSBzHUR-_z5hqjPRnNlFLlf-rQCWBSUvthCoTIidxQYpF-QvvQC-C_tdXqQm3quOLU_faDUsAN18otDn6j7TPXW3ou-YzLqPqTN-Dduve2Q5t_7BhbEGeMbu0MHy27lIJKXSoPLJoueWE1KKh7a1uBC8T7WlJaKlfQG0xMHgPW1qu1ebvGG1fe6noFlIyv1j_JembbE4-q3LGjK1kErqwsB8I5Uh4MyG8w9a2gaMKQbux6HDqynKQHyGbsetBqVgX_gCGtyepPWgPMND3jfTnWSIih-PgjTo0LdYRc9XSIQUxcbcX33QH09NwqVg/p.png',
-
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCWMS/2.png',
+          album: [
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCWMS/2.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCWMS/1.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCWMS/4.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/RKCWMS/3.png',
+          ],
           link: '',
           tools: ['Laravel', 'React'],
         },
@@ -83,6 +83,7 @@ const CONFIG = {
           imageUrl:
             'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/11.png',
           album: [
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/11.png',
             'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/10.png',
             'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/12.png',
           ],
