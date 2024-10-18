@@ -81,11 +81,10 @@ const CONFIG = {
           description:
             'CFSCDS is a Cash Disbursement System designed to track the outbound cash flow of Centrum Fuel. It is built using HTML, Tailwind, and PHP.',
           imageUrl:
-            'https://uc9969010946c5def4b79e3c5ea5.previews.dropboxusercontent.com/p/thumb/ACbQHhD3acQXIFG0oOL7W6nVwI2sxtdgMkKwGzXoRpq9NsZZv0SVn3TIy1Lb_gAxEgHdB4ppSfvNf58cgHXoXIdZSqMp-WCPWcYq5UFs2JfU6u0CPXeWqirjAnONz-Ye0XeMZHjqCFSKyWHsPJ8UkNP2vOdUKILJoVMB8D9-IJNvh_26RlDB9nWmDptckZEwVRaXngPEcKENLYaWOeaVsBJIzDplmLQ4N-qe45Oyj0fbRE73Bq2p3RZsSH1F2IUjx_H5Q9I7yWd7CAa3GbCJ1J1X_0yZajol-Yoi7QxzsqMl4B1LqaQm6a3QofYzwwX2kXZ_YCmLbBeUbm2PCMjAXr8xFJQ2dW5a7Iz8I5QREPT-ig/p.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/11.png',
           album: [
-            'https://uc9969010946c5def4b79e3c5ea5.previews.dropboxusercontent.com/p/thumb/ACbQHhD3acQXIFG0oOL7W6nVwI2sxtdgMkKwGzXoRpq9NsZZv0SVn3TIy1Lb_gAxEgHdB4ppSfvNf58cgHXoXIdZSqMp-WCPWcYq5UFs2JfU6u0CPXeWqirjAnONz-Ye0XeMZHjqCFSKyWHsPJ8UkNP2vOdUKILJoVMB8D9-IJNvh_26RlDB9nWmDptckZEwVRaXngPEcKENLYaWOeaVsBJIzDplmLQ4N-qe45Oyj0fbRE73Bq2p3RZsSH1F2IUjx_H5Q9I7yWd7CAa3GbCJ1J1X_0yZajol-Yoi7QxzsqMl4B1LqaQm6a3QofYzwwX2kXZ_YCmLbBeUbm2PCMjAXr8xFJQ2dW5a7Iz8I5QREPT-ig/p.png',
-            'https://uc24130f079f053c1298e227f9f4.previews.dropboxusercontent.com/p/thumb/ACZY_Vr_F0oRMH8g29JhuoTM8sGNdXTjnNqCcyxKsQnHkKzpOlFz47HHIf9RjjX5HjnBNiFmwxxdyKbJx9dgSvCZVVCI_bruja1wsbk8HndXPTMi47cug66sWJPPJyARRJMBKwgLOkSmwDGHZHkpzuAQCziXdy250zFXeh5YCn5j3Vae__ZgMlbY6uMaB1n361Um3zazgq7izkOe51MiCQdGOHRSQEXfNxrROg7vgrBuMKp2jbIM7YiSGrHEfUmfWIBXdgVGIHt02eOslXQwoYhfmDJtgx_Thrjemr59Kk7yNXjELEgiYJOb211HpeXLwA4QPNT4PjeGJxBnEvJ6v_tPSd-Qt414Ebe-rjnLLOVG-g/p.png',
-            'https://ucd8ff13f8647ec9a668d0eb93b2.previews.dropboxusercontent.com/p/thumb/ACalk7Dmaco4F0xVzUXPYIGRhOjH5Jib-CINhsFQvibaJ0kuXlntsUzMIa3ykaXuiCyw_AuZd7UNDMV3DJ2VtJ10Kj8faiKIGmPx706QZ5_4ob-Yx5bBXTiyHObaTz1B1-u_9gyRxKBTu4qFICb_1cn7eU9B0olSR2_9sKLGBlAowi-E69-NDP5MRJi5f-XgrUVc2HMK6wNAXfzJUEPFNS3rsvaVfLFvm2BN0_1jxukzd8uEPbYz1-yxo9O-1aqt3_7HGL1EN-Ul7BSmxfZOBWSkgkyMmjd5n8dWg8D4GSnl9_32OwsUahzHZ0zdrfqOOSIMDIYYlR3JO826Lq3dPJN-xR7ts6avT_dMhKIda-9Ssw/p.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/10.png',
+            'https://raw.githubusercontent.com/justinayson/justinayson.github.io/main/src/assets/CFSCDS/12.png',
           ],
           link: '',
           tools: ['PHP', 'HTML', 'Tailwind'],
