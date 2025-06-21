@@ -133,6 +133,9 @@ const CONFIG = {
     'MySQL',
     'Git',
     'Docker',
+    'Ubuntu Server',
+    'Unifi Network',
+    'WHM / cPanel',
     'CSS',
     'Antd',
     'Tailwind',
@@ -207,7 +210,7 @@ const CONFIG = {
   },
   // Track visitor interaction and behavior. https://www.hotjar.com
   hotjar: {
-    id: '',
+    id: '6441786',
     snippetVersion: 6,
   },
   themeConfig: {
